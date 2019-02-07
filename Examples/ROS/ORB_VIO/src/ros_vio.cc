@@ -266,6 +266,7 @@ int main(int argc, char **argv)
 
     // Save camera trajectory
     SLAM.SaveKeyFrameTrajectoryTUM(config._tmpFilePath + "KeyFrameTrajectory.txt");
+    //SLAM.Save
     //SLAM.SaveKeyFrameTrajectoryNavState(config._tmpFilePath + "KeyFrameNavStateTrajectory.txt");
 
     cout << endl
